@@ -18,3 +18,4 @@ class QuotesSpider(scrapy.Spider):
 					'final_score': quote.css('strong::text').get(),
 					'first_half': quote.css('span::text').get(),
 				}
+
