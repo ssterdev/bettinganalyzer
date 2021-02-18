@@ -4,7 +4,7 @@ from scrapy.crawler import CrawlerProcess
 def start_process():
 	process = CrawlerProcess(settings={
 		"FEEDS" : {
-			"items.json" : {"format" : "json"},
+			"items.csv" : {"format" : "csv"},
 		},
 	})
 
