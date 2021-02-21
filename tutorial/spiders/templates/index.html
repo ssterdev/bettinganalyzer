@@ -18,18 +18,30 @@
   <div class="table">
     <div class="row header">
       <div class="cell">
-        Name
+        Status
       </div>
       <div class="cell">
-        Age
+        Date
       </div>
       <div class="cell">
-        Occupation
+        Home
       </div>
       <div class="cell">
-        Location
+        Away
       </div>
-    </div>
+       <div class="cell">
+        Home_score
+      </div>
+        <div class="cell">
+        Away_score
+      </div>
+        <div class="cell">
+        Home_HTScore
+      </div>
+        <div class="cell">
+        Away_HTScore
+      </div>
+ </div>
    	{%for obj in object%} 
     <div class="row">
       <div class="cell">
@@ -42,57 +54,23 @@
         {{obj[2]}}
       </div>
       <div class="cell">
-        Brookline, MA
+      	{{obj[3]}}
+      </div>
+      <div class="cell">
+      	{{obj[4]}}
+      </div>
+      <div class="cell">
+      	{{obj[5]}}
+      </div>
+      <div class="cell">
+      	{{obj[6]}}
+      </div>
+      <div class="cell">
+      	{{obj[7]}}
       </div>
     </div>
 	{%endfor%}
-    
-    <div class="row">
-      <div class="cell">
-        Joseph Smith
-      </div>
-      <div class="cell">
-        27
-      </div>
-      <div class="cell">
-        Project Manager
-      </div>
-      <div class="cell">
-        Somerville, MA
-      </div>
-    </div>
-    
-    <div class="row">
-      <div class="cell">
-        Maxwell Johnson
-      </div>
-      <div class="cell">
-        26
-      </div>
-      <div class="cell">
-        UX Architect & Designer
-      </div>
-      <div class="cell">
-        Arlington, MA
-      </div>
-    </div>
-    
-    <div class="row">
-      <div class="cell">
-        Harry Harrison
-      </div>
-      <div class="cell">
-        25
-      </div>
-      <div class="cell">
-        Front-End Developer
-      </div>
-      <div class="cell">
-        Boston, MA
-      </div>
-    </div>
-    
-  </div>
+     </div>
   
   <div class="table">
     
